@@ -1,15 +1,9 @@
 [run]
-source = ogs5py
+source = ogs6py
 omit =
     *docs*
     *examples*
     *tests*
-    ogs5py/reader/*
-    ogs5py/tools/vtk_viewer.py
-    ogs5py/fileclasses/msh/gmsh.py
-    ogs5py/fileclasses/msh/viewer.py
-    ogs5py/fileclasses/msh/checker.py
-    ogs5py/fileclasses/gli/checker.py
 
 [report]
 exclude_lines =
