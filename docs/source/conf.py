@@ -176,7 +176,9 @@ htmlhelp_basename = "ogs6pydoc"
 # -- Options for LaTeX output ---------------------------------------------
 # latex_engine = 'lualatex'
 # logo to big
-latex_logo = "pics/OGS_150.png"
+
+## add a LOGO
+# latex_logo = "pics/logo.png"
 
 # latex_show_urls = 'footnote'
 # http://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-latex-output
@@ -203,7 +205,7 @@ latex_documents = [
         "manual",
     )
 ]
-#latex_use_parts = True
+# latex_use_parts = True
 
 # -- Options for manual page output ---------------------------------------
 
@@ -233,7 +235,7 @@ texinfo_documents = [
 
 suppress_warnings = [
     "image.nonlocal_uri",
-    #    'app.add_directive',  # this evtl. suppresses the numpydoc induced warning
+    # 'app.add_directive',  # this evtl. suppresses the numpydoc induced warning
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
